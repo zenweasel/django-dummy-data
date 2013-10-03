@@ -3,7 +3,7 @@ from django.template.response import TemplateResponse
 
 
 def direct_to_template(request):
-    return TemplateResponse(request, 'home.html', status=200)
+    return TemplateResponse(request, 'home.html', status=401)
 
 
 def login(request):
